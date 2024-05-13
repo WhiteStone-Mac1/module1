@@ -1,4 +1,4 @@
-const moduleCommonManifest = {
+{
   id: "module_one_id",
   name: "Module Green",
   version: "0.0.1",
@@ -25,8 +25,6 @@ const moduleCommonManifest = {
       actions: ["create", "read", "update", "delete"],
       icon: "http://localhost:5001/icons/ModuleLinkIcon.svg",
       route: "viewOne",
-    },
-  ],
-};
-
-export default moduleCommonManifest;
+    }
+  ]
+}
